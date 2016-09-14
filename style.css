@@ -1,0 +1,67 @@
+h1{
+  color: #fff;
+  text-align: center;
+  font-family: "Corben", Georgia,Times, serif;
+}
+
+h2{
+  text-align: center;
+  font-family: "Corben", Georgia,Times, serif;
+}
+body {
+
+  background-color: #91E5FF;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #293634;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #F8F8FF;
+}
+
+li a.active {
+  color: white;
+  background-color: #6F7C7F;
+}
+
+article {
+  margin: auto;
+  width: 60%;
+  background-color: #fff
+}
+
+p {
+  text-align: center;
+  font-family: Calibri;
+  color: #293634;
+
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  float: left;
+}
+
+a{
+  font-weight: bolder;
+}
+
