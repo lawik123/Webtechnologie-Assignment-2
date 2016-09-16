@@ -7,6 +7,7 @@ h1{
 h2{
   text-align: center;
   font-family: "Corben", Georgia,Times, serif;
+  color: #6F7C7F;
 }
 body {
 
@@ -14,12 +15,15 @@ body {
 }
 
 ul {
+  float: inherit;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
+  /*background: rgba(255,255,255,0.8)*/
   background-color: #fff;
 }
+
 
 li {
   float: left;
@@ -45,7 +49,8 @@ li a.active {
 article {
   margin: auto;
   width: 60%;
-  background-color: #fff
+  /*background: rgba(255,255,255,0.8)*/
+  background-color: #fff;
 }
 
 p {
@@ -55,13 +60,18 @@ p {
 
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  float: left;
-}
-
 a{
   font-weight: bolder;
 }
+
+img{
+  width: 5%;
+}
+
+
+
+
+
+
+
 
