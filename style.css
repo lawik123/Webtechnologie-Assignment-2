@@ -1,4 +1,4 @@
-h1{
+h1.style{
   color: #fff;
   text-align: center;
   font-family: "Corben", Georgia,Times, serif;
@@ -52,12 +52,24 @@ article {
   /*background: rgba(255,255,255,0.8)*/
   background-color: #fff;
 }
+article.bestemming{
+  width: 70%;
+  height: 60%;
+  padding: 10px;
+  border-color: aqua;
+ border-style: solid;
+}
 
 p {
   text-align: center;
   font-family: Calibri;
   color: #293634;
 
+}
+p.padding {
+  padding: 10px;
+  float: right;
+  width: 400px;
 }
 
 a{
@@ -66,6 +78,28 @@ a{
 
 img{
   width: 5%;
+  border-style: solid;
+}
+
+.image {
+  position: relative;
+  width: 100%; /* for IE 6 */
+}
+
+h3 {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 100%;
+}
+
+h3 span {
+  color: white;
+  font: bold 24px/45px Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
 }
 
 
