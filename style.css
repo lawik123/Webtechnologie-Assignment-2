@@ -11,8 +11,9 @@ h2 {
 }
 
 body {
-
-    background-color: #91E5FF;
+  background-color: #91E5FF;
+  /*margin: 0;*/
+  /*padding: 0;*/
 }
 
 ul {
@@ -46,11 +47,41 @@ li a.active {
     background-color: #6F7C7F;
 }
 
+a{
+  font-weight: bold;
+}
+
+form{
+  text-align: center;
+}
+
+.input {
+  width: 50%;
+  margin: 10px 0 10px 0;
+  height: 20px;
+}
+
+.inputtext{
+  margin-top: 10px;
+  resize: vertical;
+  width: 50%;
+}
+
+.submit{
+  border-radius: 20px;
+  background-color: #fff;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+
 article {
-    margin: auto;
-    width: 60%;
-    /*background: rgba(255,255,255,0.8)*/
-    background-color: #fff;
+  margin: auto;
+  width: 75%;
+  /*background: rgba(255,255,255,0.8)*/
+  background-color: #fff;
+  margin-top: 30px;
+  padding-top: 5px;
 }
 
 article.bestemming {
@@ -62,10 +93,14 @@ article.bestemming {
 }
 
 p {
-    text-align: center;
-    font-family: Calibri;
-    color: #293634;
+  text-align: center;
+  font-family: Calibri;
+  color: #293634;
+}
 
+.wrap {
+  overflow: hidden;
+  margin: 10px;
 }
 div.nextToImage {
     float: right;
@@ -73,31 +108,43 @@ div.nextToImage {
     width: 45%;
 }
 
-p.nextImageTitle {
-    margin: 1px;
-    text-align: left;
-    font: bold 24px/45px Helvetica, Sans-Serif;
+.box {
+  float: left;
+  position: relative;
+  width: 50%;
+
 }
 
-p.nextImageText {
-    margin: 5px;
-    text-align: left;
+.boxInner {
+  position: relative;
+  margin: 10px 10px 10px 10px;
+  overflow: hidden;
+  /*border-radius: 15px;*/
+  /*background: rgba(0,0,0,1.0);*/
+  /*margin: 1%;*/
+
 }
 
-a {
-    font-weight: bolder;
+.boxInner img {
+  opacity: 0.7;
+  max-width: 100%;
+  height: auto;
+  border-radius: 18px;
 }
 
-img {
-    width: 50%;
-    height: 100%;
-    border-style: solid;
+.boxInner img:hover {
+  opacity: 1.0;
 }
 
-.image {
-    position: relative;
-    padding: 5px;
-    border-bottom: double;
+.boxInner p {
+  font-family: "Corben", Georgia,Times, serif;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  color: #fff;
+  font-size: 300%;
+  font-weight: bold;
 }
 
 h3 {
@@ -106,15 +153,45 @@ h3 {
     left: 5px;
 }
 
-h3 span {
-    color: white;
-    font: bold 24px/45px Helvetica, Sans-Serif;
-    letter-spacing: -1px;
-    background: rgb(0, 0, 0); /* fallback color */
-    background: rgba(0, 0, 0, 0.7);
-    padding: 10px;
+@media only screen and (max-width : 480px) {
+  /* Smartphone view: 1 tile */
+  .box {
+    width: 100%;
+  }
+  .boxInner p {
+    font-size: 100%;
+  }
 }
 
+@media only screen and (max-width : 650px) and (min-width : 481px) {
+  /* Tablet view: 2 tiles */
+  .box {
+    width: 50%;
+  }
+  .boxInner p {
+    font-size: 100%;
+  }
+}
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
+  /* Small desktop / ipad view: 3 tiles */
+  .box {
+    width: 50%;
+
+  }
+  .boxInner p {
+    font-size: 100%;
+  }
+}
+@media only screen and (max-width : 1290px) and (min-width : 1051px) {
+  /* Medium desktop: 4 tiles */
+  .box {
+    width: 25%;
+
+  }
+  .boxInner p {
+    font-size: 100%;
+  }
+}
 
 
 
