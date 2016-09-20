@@ -10,10 +10,18 @@ h2 {
     color: #6F7C7F;
 }
 
+html{
+    background: url("4.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
 body {
-    background-color: #91E5FF;
-    /*margin: 0;*/
-    /*padding: 0;*/
+
+
 }
 
 ul {
@@ -75,21 +83,23 @@ form {
 }
 
 article {
+     margin: auto;
+     width: 75%;
+     /*background: rgba(255,255,255,0.8)*/
+     background-color: #fff;
+     margin-top: 30px;
+     padding-top: 5px;
+ }
+
+.bestemming {
     margin: auto;
-    width: 75%;
+    width: 40%;
     /*background: rgba(255,255,255,0.8)*/
     background-color: #fff;
     margin-top: 30px;
     padding-top: 5px;
 }
 
-article.bestemming {
-    width: 70%;
-    height: 60%;
-    padding: 10px;
-    border-color: aqua;
-    border-style: solid;
-}
 
 p {
     text-align: center;
@@ -107,17 +117,17 @@ p {
     margin: 10px;
 }
 
-div.nextToImage {
-    float: right;
-    position: relative;
-    width: 45%;
-}
 
 .box {
     float: left;
     position: relative;
     width: 50%;
 
+}
+
+.boxcenter {
+    position: relative;
+    width: 100%;
 }
 
 .boxInner {
@@ -148,7 +158,7 @@ div.nextToImage {
     left: 0;
     padding: 10px;
     color: #fff;
-    font-size: 300%;
+    font-size: 200%;
     font-weight: bold;
 }
 
@@ -158,63 +168,27 @@ h3 {
     left: 5px;
 }
 
-article.bestemming {
-    width: 70%;
-    height: 60%;
-    padding: 10px;
-    border-color: aqua;
-    border-style: solid;
-}
-
-p {
+.header {
     text-align: center;
     font-family: Calibri;
+    font-size: 300%;
     color: #293634;
-
 }
 
-div.nextToImage {
+
+.nextToImage {
     float: right;
     position: relative;
-    border-style: groove;
     width: 44%;
-}
-
-p.nextImageTitle {
-    margin: 1px;
     text-align: left;
-    font: bold 24px/45px Helvetica, Sans-Serif;
+    font-size: 65%;
 }
 
 p.nextImageText {
+    top: 45%;
     margin: 5px;
     text-align: left;
-}
-
-p.viewDiscountersInPlaces {
-    text-align: left;
-    font: italic 24px/45px Helvetica, Sans-Serif;
-}
-
-.image {
-    position: relative;
-    padding: 5px;
-    border-bottom: double;
-}
-
-h3 {
-    position: absolute;
-    bottom: 20%;
-    left: 5px;
-}
-
-h3 span {
-    color: white;
-    font: bold 24px/45px Helvetica, Sans-Serif;
-    letter-spacing: -1px;
-    background: rgb(0, 0, 0); /* fallback color */
-    background: rgba(0, 0, 0, 0.7);
-    padding: 10px;
+    color: #293634;
 }
 
 @media only screen and (max-width: 480px) {
@@ -224,7 +198,28 @@ h3 span {
     }
 
     .boxInner p {
-        font-size: 100%;
+        font-size: 50%;
+    }
+
+    .nextToImage p{
+        font-size: 50%;
+    }
+
+    img {
+        display: none;
+    }
+
+    .header {
+        font-size: 50%;
+    }
+
+    h2 {
+        font-size: 60%;
+    }
+
+    #textPortugal {
+        display: block;
+        width: 100%;
     }
 }
 
@@ -237,6 +232,18 @@ h3 span {
     .boxInner p {
         font-size: 100%;
     }
+
+    .nextToImage p{
+        font-size: 50%;
+    }
+
+    .header {
+        font-size: 70%;
+    }
+
+    h2 {
+        font-size: 80%;
+    }
 }
 
 @media only screen and (max-width: 1050px) and (min-width: 651px) {
@@ -247,6 +254,14 @@ h3 span {
     }
 
     .boxInner p {
+        font-size: 120%;
+    }
+
+    .nextToImage p {
+        font-size: 70%;
+    }
+
+    .header {
         font-size: 100%;
     }
 }
@@ -259,7 +274,35 @@ h3 span {
     }
 
     .boxInner p {
-        font-size: 100%;
+        font-size: 150%;
+    }
+
+    .nextToImage p {
+        font-size: 90%;
+    }
+
+    .header {
+        font-size: 150%;
+    }
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 1291px) {
+    /* Medium desktop: 4 tiles */
+    .box {
+        width: 25%;
+
+    }
+
+    .boxInner p {
+        font-size: 180%;
+    }
+
+    .nextToImage p {
+        font-size: 110%;
+    }
+
+    .header {
+        font-size: 200%;
     }
 }
 
