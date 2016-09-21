@@ -10,7 +10,7 @@ h2 {
     color: #6F7C7F;
 }
 
-html{
+html {
     background: url("4.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -20,7 +20,6 @@ html{
 }
 
 body {
-
 
 }
 
@@ -83,13 +82,13 @@ form {
 }
 
 article {
-     margin: auto;
-     width: 75%;
-     /*background: rgba(255,255,255,0.8)*/
-     background-color: #fff;
-     margin-top: 30px;
-     padding-top: 5px;
- }
+    margin: auto;
+    width: 75%;
+    /*background: rgba(255,255,255,0.8)*/
+    background-color: #fff;
+    margin-top: 30px;
+    padding-top: 5px;
+}
 
 .bestemming {
     margin: auto;
@@ -99,7 +98,6 @@ article {
     margin-top: 30px;
     padding-top: 5px;
 }
-
 
 p {
     text-align: center;
@@ -116,7 +114,6 @@ p {
     overflow: hidden;
     margin: 10px;
 }
-
 
 .box {
     float: left;
@@ -175,7 +172,6 @@ h3 {
     color: #293634;
 }
 
-
 .nextToImage {
     float: right;
     position: relative;
@@ -185,10 +181,92 @@ h3 {
 }
 
 p.nextImageText {
-    top: 45%;
+    top: 60%;
     margin: 5px;
     text-align: left;
     color: #293634;
+}
+
+.square {
+    position: relative;
+    width: 33.3333%;
+}
+
+.square:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.content {
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    border-radius: 10px;
+
+}
+
+.colum-holder {
+    display: block;
+    padding: 3%;
+    overflow: hidden;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.inner {
+    position: relative;
+    width: 100.1%;
+    height: 100%;
+}
+
+.squareImgI {
+    background: url("1.jpeg") 50% 50% no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 99%;
+    height: 99%;
+    margin: 1%;
+    border-radius: 10px;
+}
+
+.squareImgP {
+    background: url("2.jpg") 50% 50% no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 99%;
+    height: 99%;
+    margin: 1%;
+    border-radius: 10px;
+
+
+
+}
+
+.squareImgS {
+    background: url("5.jpeg") 50% 50% no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 99%;
+    height: 99%;
+    margin: 1%;
+    border-radius: 10px;
+
+
+
+}
+
+.squareImgG {
+    background: url("4.jpg") 50% 50% no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 99%;
+    height: 99%;
+    margin: 1%;
+    border-radius: 10px;
+
+
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -201,7 +279,7 @@ p.nextImageText {
         font-size: 50%;
     }
 
-    .nextToImage p{
+    .nextToImage p {
         font-size: 50%;
     }
 
@@ -221,6 +299,10 @@ p.nextImageText {
         display: block;
         width: 100%;
     }
+
+    li {
+        float: none;
+    }
 }
 
 @media only screen and (max-width: 650px) and (min-width: 481px) {
@@ -233,7 +315,7 @@ p.nextImageText {
         font-size: 100%;
     }
 
-    .nextToImage p{
+    .nextToImage p {
         font-size: 50%;
     }
 
@@ -243,6 +325,10 @@ p.nextImageText {
 
     h2 {
         font-size: 80%;
+    }
+
+    li {
+        float: none;
     }
 }
 
