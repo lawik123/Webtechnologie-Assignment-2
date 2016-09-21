@@ -1,0 +1,26 @@
+/*CSS file for contact.html*/
+
+
+
+form {
+  text-align: center;
+}
+
+.input {
+  width: 50%;
+  margin: 10px 0 10px 0;
+  height: 20px;
+}
+
+.inputtext {
+  margin-top: 10px;
+  resize: vertical;
+  width: 50%;
+}
+
+.submit {
+  border-radius: 20px;
+  background-color: #fff;
+  margin-top: 10px;
+  font-size: 15px;
+}

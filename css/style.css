@@ -1,0 +1,390 @@
+/*h1 {*/
+    /*color: #fff;*/
+    /*text-align: center;*/
+    /*font-family: "Corben", Georgia, Times, serif;*/
+/*}*/
+
+/*h2 {*/
+    /*text-align: center;*/
+    /*font-family: "Corben", Georgia, Times, serif;*/
+    /*color: #6F7C7F;*/
+/*}*/
+
+/*html {*/
+    /*background: url("4.jpg") no-repeat center center fixed;*/
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
+
+/*}*/
+
+/*body {*/
+
+/*}*/
+
+/*ul {*/
+    /*float: inherit;*/
+    /*list-style-type: none;*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*overflow: hidden;*/
+    /*!*background: rgba(255,255,255,0.8)*!*/
+    /*background-color: #fff;*/
+/*}*/
+
+/*li {*/
+    /*float: left;*/
+/*}*/
+
+/*li a {*/
+    /*display: block;*/
+    /*color: #293634;*/
+    /*text-align: center;*/
+    /*padding: 14px 16px;*/
+    /*text-decoration: none;*/
+/*}*/
+
+/*li a:hover:not(.active) {*/
+    /*background-color: #F8F8FF;*/
+/*}*/
+
+/*li a.active {*/
+    /*color: white;*/
+    /*background-color: #6F7C7F;*/
+/*}*/
+
+/*a {*/
+    /*font-weight: bold;*/
+/*}*/
+
+/*form {*/
+    /*text-align: center;*/
+/*}*/
+
+/*.input {*/
+    /*width: 50%;*/
+    /*margin: 10px 0 10px 0;*/
+    /*height: 20px;*/
+/*}*/
+
+/*.inputtext {*/
+    /*margin-top: 10px;*/
+    /*resize: vertical;*/
+    /*width: 50%;*/
+/*}*/
+
+/*.submit {*/
+    /*border-radius: 20px;*/
+    /*background-color: #fff;*/
+    /*margin-top: 10px;*/
+    /*font-size: 15px;*/
+/*}*/
+
+/*article {*/
+    /*margin: auto;*/
+    /*width: 75%;*/
+    /*!*background: rgba(255,255,255,0.8)*!*/
+    /*background-color: #fff;*/
+    /*margin-top: 30px;*/
+    /*padding-top: 5px;*/
+/*}*/
+
+.bestemming {
+    margin: auto;
+    width: 40%;
+    /*background: rgba(255,255,255,0.8)*/
+    background-color: #fff;
+    margin-top: 30px;
+    padding-top: 5px;
+}
+
+/*p {*/
+    /*text-align: center;*/
+    /*font-family: Calibri;*/
+    /*color: #293634;*/
+/*}*/
+
+.image img {
+    width: 55%;
+    border-style: solid;
+}
+
+.wrap {
+    overflow: hidden;
+    margin: 10px;
+}
+
+/*.box {*/
+    /*float: left;*/
+    /*position: relative;*/
+    /*width: 50%;*/
+
+/*}*/
+
+.boxcenter {
+    position: relative;
+    width: 100%;
+}
+
+.boxInner {
+    position: relative;
+    margin: 10px 10px 10px 10px;
+    overflow: hidden;
+    /*border-radius: 15px;*/
+    /*background: rgba(0,0,0,1.0);*/
+    /*margin: 1%;*/
+
+}
+
+.boxInner img {
+    opacity: 0.7;
+    max-width: 100%;
+    height: auto;
+    border-radius: 18px;
+}
+
+.boxInner img:hover {
+    opacity: 1.0;
+}
+
+.boxInner p {
+    font-family: "Corben", Georgia, Times, serif;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    color: #fff;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.header {
+    text-align: center;
+    font-family: Calibri;
+    font-size: 300%;
+    color: #293634;
+}
+
+.nextToImage {
+    float: right;
+    position: relative;
+    width: 44%;
+    text-align: left;
+    font-size: 65%;
+}
+
+p.nextImageText {
+    top: 60%;
+    margin: 5px;
+    text-align: left;
+    color: #293634;
+}
+
+.square {
+    position: relative;
+    width: 33.3333%;
+}
+
+.square:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.content {
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    border-radius: 10px;
+
+}
+
+.colum-holder {
+    display: block;
+    padding: 3%;
+    overflow: hidden;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.inner {
+    position: relative;
+    width: 100.1%;
+    height: 100%;
+}
+
+.squareImgI {
+    background: url("assets/1.jpeg") 50% 50% no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 99%;
+    height: 99%;
+    margin: 1%;
+    border-radius: 10px;
+}
+
+.squareImgP {
+    background: url("assets/2.jpg") 50% 50% no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 99%;
+    height: 99%;
+    margin: 1%;
+    border-radius: 10px;
+
+
+
+}
+
+.squareImgS {
+    background: url("assets/5.jpeg") 50% 50% no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 99%;
+    height: 99%;
+    margin: 1%;
+    border-radius: 10px;
+
+
+
+}
+
+.squareImgG {
+    background: url("assets/4.jpg") 50% 50% no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 99%;
+    height: 99%;
+    margin: 1%;
+    border-radius: 10px;
+
+
+
+}
+
+@media only screen and (max-width: 480px) {
+    /* Smartphone view: 1 tile */
+    /*.box {*/
+        /*width: 100%;*/
+    /*}*/
+
+    /*.boxInner p {*/
+        /*font-size: 50%;*/
+    /*}*/
+
+    .nextToImage p {
+        font-size: 50%;
+    }
+
+    .header {
+        font-size: 50%;
+    }
+
+    /*h2 {*/
+        /*font-size: 60%;*/
+    /*}*/
+
+    #textPortugal {
+        display: block;
+        width: 100%;
+    }
+
+    /*li {*/
+        /*float: none;*/
+    /*}*/
+}
+
+@media only screen and (max-width: 650px) and (min-width: 481px) {
+    /* Tablet view: 2 tiles */
+    .box {
+        width: 50%;
+    }
+
+    .boxInner p {
+        font-size: 100%;
+    }
+
+    .nextToImage p {
+        font-size: 50%;
+    }
+
+    .header {
+        font-size: 70%;
+    }
+
+    /*h2 {*/
+        /*font-size: 80%;*/
+    /*}*/
+
+    /*li {*/
+        /*float: none;*/
+    /*}*/
+}
+
+@media only screen and (max-width: 1050px) and (min-width: 651px) {
+    /* Small desktop / ipad view: 3 tiles */
+    .box {
+        width: 50%;
+
+    }
+
+    .boxInner p {
+        font-size: 120%;
+    }
+
+    .nextToImage p {
+        font-size: 70%;
+    }
+
+    .header {
+        font-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 1290px) and (min-width: 1051px) {
+    /* Medium desktop: 4 tiles */
+    .box {
+        width: 25%;
+
+    }
+
+    .boxInner p {
+        font-size: 150%;
+    }
+
+    .nextToImage p {
+        font-size: 90%;
+    }
+
+    .header {
+        font-size: 150%;
+    }
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 1291px) {
+    /* Medium desktop: 4 tiles */
+    .box {
+        width: 25%;
+
+    }
+
+    .boxInner p {
+        font-size: 180%;
+    }
+
+    .nextToImage p {
+        font-size: 110%;
+    }
+
+    .header {
+        font-size: 200%;
+    }
+}
+
+
+
+
+
+
+
