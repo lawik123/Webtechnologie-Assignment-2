@@ -215,7 +215,7 @@ p.nextImageText {
 }
 
 .squareImgI {
-    background: url("assets/1.jpeg") 50% 50% no-repeat;
+    background: url("/assets/1.jpeg") 50% 50% no-repeat;
     background-size: cover;
     position: relative;
     width: 99%;
@@ -225,7 +225,7 @@ p.nextImageText {
 }
 
 .squareImgP {
-    background: url("assets/2.jpg") 50% 50% no-repeat;
+    background: url("/assets/2.jpg") 50% 50% no-repeat;
     background-size: cover;
     position: relative;
     width: 99%;
@@ -238,7 +238,7 @@ p.nextImageText {
 }
 
 .squareImgS {
-    background: url("assets/5.jpeg") 50% 50% no-repeat;
+    background: url("/assets/5.jpeg") 50% 50% no-repeat;
     background-size: cover;
     position: relative;
     width: 99%;
@@ -251,7 +251,7 @@ p.nextImageText {
 }
 
 .squareImgG {
-    background: url("assets/4.jpg") 50% 50% no-repeat;
+    background: url("/assets/4.jpg") 50% 50% no-repeat;
     background-size: cover;
     position: relative;
     width: 99%;
@@ -269,9 +269,9 @@ p.nextImageText {
         /*width: 100%;*/
     /*}*/
 
-    /*.boxInner p {*/
-        /*font-size: 50%;*/
-    /*}*/
+    .boxInner p {
+        font-size: 50%;
+    }
 
     .nextToImage p {
         font-size: 50%;
@@ -297,9 +297,9 @@ p.nextImageText {
 
 @media only screen and (max-width: 650px) and (min-width: 481px) {
     /* Tablet view: 2 tiles */
-    .box {
-        width: 50%;
-    }
+    /*.box {*/
+        /*width: 50%;*/
+    /*}*/
 
     .boxInner p {
         font-size: 100%;
@@ -324,10 +324,10 @@ p.nextImageText {
 
 @media only screen and (max-width: 1050px) and (min-width: 651px) {
     /* Small desktop / ipad view: 3 tiles */
-    .box {
-        width: 50%;
+    /*.box {*/
+        /*width: 50%;*/
 
-    }
+    /*}*/
 
     .boxInner p {
         font-size: 120%;
@@ -344,10 +344,10 @@ p.nextImageText {
 
 @media only screen and (max-width: 1290px) and (min-width: 1051px) {
     /* Medium desktop: 4 tiles */
-    .box {
-        width: 25%;
+    /*.box {*/
+        /*width: 25%;*/
 
-    }
+    /*}*/
 
     .boxInner p {
         font-size: 150%;
@@ -364,10 +364,7 @@ p.nextImageText {
 
 @media only screen and (max-width: 1500px) and (min-width: 1291px) {
     /* Medium desktop: 4 tiles */
-    .box {
-        width: 25%;
-
-    }
+   a
 
     .boxInner p {
         font-size: 180%;
