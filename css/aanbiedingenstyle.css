@@ -1,110 +1,224 @@
 /*CSS file for aanbiedingen.html*/
 
-
-
 .wrap {
-  overflow: hidden;
-  margin: 10px;
+    overflow: hidden;
+    margin: 10px;
 }
 
 .box {
-  float: left;
-  position: relative;
-  width: 50%;
+    float: left;
+    position: relative;
+    width: 33.333%;
+    height: 33.333%;
 
 }
 
 .boxInner {
-  position: relative;
-  margin: 10px 10px 10px 10px;
-  overflow: hidden;
-  /*border-radius: 15px;*/
-  /*background: rgba(0,0,0,1.0);*/
-  /*margin: 1%;*/
+    position: relative;
+    margin: 10px 10px 10px 10px;
+    overflow: hidden;
+    /*border-radius: 15px;*/
+    /*background: rgba(0,0,0,1.0);*/
+    /*margin: 1%;*/
 
 }
 
 .boxInner img {
-  opacity: 0.7;
-  max-width: 100%;
-  height: auto;
-  border-radius: 18px;
+    opacity: 1;
+    max-height: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 18px;
 }
 
 .boxInner img:hover {
-  opacity: 1.0;
+    opacity: 1.0;
 }
 
 .boxInner p {
-  font-family: "Corben", Georgia, Times, serif;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  padding: 10px;
-  color: #fff;
-  font-size: 200%;
-  font-weight: bold;
+    font-family: "Corben", Georgia, Times, serif;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    color: #fff;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.ts-link {
+    display: block;
+    position: absolute;
+    height: 15%;
+    right: 10%;
+    left: 50%;
+    bottom: 7%;
+    font-size: 110%;
+    font-weight: 700;
+    line-height: 43px;
+    text-align: center;
+    color: #454340;
+    text-decoration: none;
+    border-radius: 9px;
+    background-color: #ffe900;
+}
+
+.ribbon {
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 72%;
+    left: 25%;
+    margin: 0 0 0 -7px;
+    padding: 10px 15px;
+    font-family: kelson-webfont,arial,sans-serif;
+    font-size: 80%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ff8300;
+    line-height: 1.4;
+    background-color: #000000;
+    -webkit-transform: rotate(21deg);
+    transform: rotate(21deg);
+}
+
+@media only screen and (max-width: 360px) {
+    /* Smartphone view: 1 tile */
+    .box {
+        width: 100%;
+    }
+
+    .boxInner p {
+        font-size: 100%;
+    }
+
+    .ts-link {
+        display: none;
+    }
+
+    .ribbon {
+        display: none;
+    }
 }
 
 
 @media only screen and (max-width: 480px) {
-  /* Smartphone view: 1 tile */
-  .box {
-    width: 100%;
-  }
+    /* Smartphone view: 1 tile */
+    .box {
+        width: 100%;
+    }
 
-  .boxInner p {
-    font-size: 50%;
-  }
+    .boxInner p {
+        font-size: 100%;
+    }
+
+    .ts-link {
+        display: none;
+    }
+
+    .ribbon {
+        width: 100%;
+        bottom: 70%;
+        left: 23%;
+        font-size: 50%;
+    }
 }
 
 @media only screen and (max-width: 650px) and (min-width: 481px) {
-  /* Tablet view: 2 tiles */
-  .box {
-    width: 50%;
-  }
+    /* Tablet view: 2 tiles */
+    .box {
+        width: 50%;
+    }
 
-  .boxInner p {
-    font-size: 100%;
-  }
+    .boxInner p {
+        font-size: 100%;
+    }
+
+    .ts-link {
+        font-size: 60%;
+        line-height: 20px;
+    }
+
+    .ribbon {
+        width: 100%;
+        bottom: 68%;
+        left: 22%;
+        font-size: 35%;
+    }
 
 }
 
 @media only screen and (max-width: 1050px) and (min-width: 651px) {
-  /* Small desktop / ipad view: 3 tiles */
-  .box {
-    width: 50%;
+    /* Small desktop / ipad view: 3 tiles */
+    .box {
+        width: 50%;
 
-  }
+    }
 
-  .boxInner p {
-    font-size: 120%;
-  }
+    .boxInner p {
+        font-size: 120%;
+    }
+
+    .ts-link {
+        font-size: 90%;
+        line-height: 30px;
+    }
+
+    .ribbon {
+        width: 100%;
+        bottom: 70%;
+        left: 22%;
+        font-size: 60%;
+    }
 
 }
 
 @media only screen and (max-width: 1290px) and (min-width: 1051px) {
-  /* Medium desktop: 4 tiles */
-  .box {
-    width: 25%;
+    /* Medium desktop: 4 tiles */
+    .box {
+        width: 25%;
 
-  }
+    }
 
-  .boxInner p {
-    font-size: 150%;
+    .boxInner p {
+        font-size: 150%;
 
-  }
+    }
+    .ts-link {
+        font-size: 60%;
+        line-height: 17px;
+    }
+
+    .ribbon {
+        width: 100%;
+        bottom: 69%;
+        left: 22%;
+        font-size: 40%;
+    }
 }
 
 @media only screen and (max-width: 1500px) and (min-width: 1291px) {
-  /* Medium desktop: 4 tiles */
-  .box {
-    width: 25%;
+    /* Medium desktop: 4 tiles */
+    .box {
+        width: 25%;
 
-  }
+    }
 
-  .boxInner p {
-    font-size: 180%;
-  }
+    .boxInner p {
+        font-size: 180%;
+    }
+
+    .ts-link {
+        font-size: 80%;
+        line-height: 22px;
+    }
+
+    .ribbon {
+        width: 100%;
+        bottom: 70%;
+        left: 22%;
+        font-size: 50%;
+    }
+
 
 }

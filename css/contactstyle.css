@@ -1,7 +1,8 @@
 /*CSS file for contact.html*/
 
-
-
+article {
+  background-color: whitesmoke;
+}
 form {
   text-align: center;
 }

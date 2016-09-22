@@ -11,7 +11,7 @@
 /*}*/
 
 /*html {*/
-    /*background: url("4.jpg") no-repeat center center fixed;*/
+    /*background: url("bg.jpg") no-repeat center center fixed;*/
     /*-webkit-background-size: cover;*/
     /*-moz-background-size: cover;*/
     /*-o-background-size: cover;*/
@@ -170,8 +170,7 @@
     float: right;
     position: relative;
     width: 44%;
-    text-align: left;
-    font-size: 65%;
+    height: 100%;
 }
 
 p.nextImageText {
@@ -179,6 +178,7 @@ p.nextImageText {
     margin: 5px;
     text-align: left;
     color: #293634;
+    font-size: 110%;
 }
 
 .square {
@@ -215,7 +215,7 @@ p.nextImageText {
 }
 
 .squareImgI {
-    background: url("/assets/1.jpeg") 50% 50% no-repeat;
+    background: url("/assets/ibiza.jpeg") 50% 50% no-repeat;
     background-size: cover;
     position: relative;
     width: 99%;
@@ -225,42 +225,50 @@ p.nextImageText {
 }
 
 .squareImgP {
-    background: url("/assets/2.jpg") 50% 50% no-repeat;
+    background: url("/assets/griekenland.jpg") 50% 50% no-repeat;
     background-size: cover;
     position: relative;
     width: 99%;
     height: 99%;
     margin: 1%;
     border-radius: 10px;
-
-
-
 }
 
 .squareImgS {
-    background: url("/assets/5.jpeg") 50% 50% no-repeat;
+    background: url("/assets/portugal.jpeg") 50% 50% no-repeat;
     background-size: cover;
     position: relative;
     width: 99%;
     height: 99%;
     margin: 1%;
     border-radius: 10px;
-
-
-
 }
 
 .squareImgG {
-    background: url("/assets/4.jpg") 50% 50% no-repeat;
+    background: url("/assets/bg.jpg") 50% 50% no-repeat;
     background-size: cover;
     position: relative;
     width: 99%;
     height: 99%;
     margin: 1%;
     border-radius: 10px;
+}
 
-
-
+.ts-link {
+    display: block;
+    position: absolute;
+    height: 5%;
+    right: 40%;
+    left: 40%;
+    bottom: 60%;
+    font-size: 110%;
+    font-weight: 700;
+    line-height: 43px;
+    text-align: center;
+    color: #F8F8FF;
+    text-decoration: none;
+    border-radius: 9px;
+    background-color: #454340
 }
 
 @media only screen and (max-width: 480px) {

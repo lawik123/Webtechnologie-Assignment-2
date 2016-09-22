@@ -1,0 +1,36 @@
+.detail {
+    width: 80%;
+    height: 40%;
+    display: block;
+}
+
+.detailimg {
+    width: 100%;
+    height: auto;
+    opacity: 1;
+}
+
+.boxcenter-griekenland {
+    display: block;
+    padding: 3%;
+    margin: 1%;
+    width: 50%;
+}
+
+.ts-link {
+    display: block;
+    position: relative;
+    width: 50%;
+    height: 10%;
+    right: 40%;
+    left: 40%;
+    bottom: 10%;
+    font-size: 110%;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 9px;
+    background-color: #e20086
+}
