@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/bestemmingenstyle.css" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="bestemmingen.js"></script>
   </head>
-  <body>
+  <body onload="scrolltop()">
     <div>
       <header>
         <h1>Vakantie Feest</h1>
@@ -27,72 +28,26 @@
           <br>
           Vakantie Feest heeft een ruime keuze bestemmingen!</p>
         <div class="wrap">
-          <div id="boxcenterID" class="boxcenter">
-            <div id="boxinnerID" class="boxInner" onclick="sample()">
-              <div id="textP" style="display: none" class="nextToImage">
-                <p class="nextImageText">De populariteit van Portugal als vakantieland groeit met het jaar. En terecht.
-                  In
-                  Portugal is genoeg te zien: de sprookjespaleizen in Sintra, de duizelingwekkende ravijnen in de Serra
-                  da
-                  Estrela, Lissabon met haar romantische wijken en de sneeuwwitte dorpjes in de Alentejo. Je kunt er
-                  heerlijk eten en luisteren naar de weemoedige fado-muziek. </p>
-              </div>
-              <script type="text/javascript">
-                function sample() {
-                  document.getElementById("articleID").style.width = "75%";
-                  document.getElementById("imgP").style.width = "50%";
-                  document.getElementById("imgP").style.opacity = "1";
-                  document.getElementById("textP").style.display = "block";
-                  //reset otherclicked items
-                  document.getElementById("imgG").style.width = "100%";
-                  document.getElementById("imgI").style.width = "100%";
-                  document.getElementById("imgS").style.width = "100%";
-                  document.getElementById("textI").style.display = "none";
-                  document.getElementById("textS").style.display = "none";
-                  document.getElementById("textG").style.display = "none";
-                }
-              </script>
+          <div class="boxcenter" onclick="portugalOnClick()">
+            <div class="boxInner">
               <img id="imgP" src="assets/portugal.jpeg">
               <p>Portugal</p>
             </div>
           </div>
-          <div class="boxcenter">
-            <div id="boxinnerID2" class="boxInner" onclick="sample2()">
-              <div id="textI" style="display: none" class="nextToImage">
-                <p class="nextImageText">Ibiza had het Spaanse woord voor muziek kunnen zijn. Niet voor niets is de
-                  muziekstijl 'Ibiza House' naar dit eiland vernoemd. Ook staat Ibiza bekend om het bruisende
-                  nachtleven,
-                  blauwe baaien en is het de thuishaven van vele hippies. Wissel uw dagen op de witte stranden af met
-                  een
-                  klim naar de top van de Puig de Missa tijdens een zonvakantie op Ibiza. Op deze manier maakt u kennis
-                  met
-                  beide gezichten van het Spaanse eiland dat behoort tot de Balearen. </p>
-              </div>
+          <div class="boxcenter" onclick="ibizaOnClick()">
+            <div class="boxInner">
               <img id="imgI" src="assets/ibiza.jpeg">
               <p>Ibiza</p>
             </div>
           </div>
-          <div class="boxcenter">
-            <div id="boxinnerID3" class="boxInner" onclick="sample3()">
-              <div id="textS" style="display: none" class="nextToImage">
-                <p class="nextImageText">Een lange kustlijn verdeeld over verschillende Costa's, temperamentvolle steden
-                  als Barcelona en Madrid en overheerlijke Spaanse tapas, paella en sangria: als je ergens 'la buena
-                  vida' kunt ervaren dan is het wel tijdens een vakantie in Spanje. Dit land in het zuidwesten van
-                  Europa is vanwege de ligging aan de Middellandse Zee al jaren dé plek voor een strandvakantie. </p>
-              </div>
+          <div class="boxcenter" onclick="spanjeOnClick()">
+            <div class="boxInner">
               <img id="imgS" src="assets/spanje.jpg">
               <p>Spanje</p>
             </div>
           </div>
-          <div class="boxcenter">
-            <div id="boxinnerID4" class="boxInner" onclick="sample4()">
-              <div id="textG" style="display: none" class="nextToImage">
-                <p class="nextImageText">Griekenland is zo divers dat het onmogelijk is om over één land te spreken en
-                  daar plukt u de vruchten van. Voor een zonovergoten strandvakantie lenen de talloze eilanden zich
-                  goed, zoals het diverse Kreta. Of ontdek meerdere eilanden tijdens het eilandhoppen in de Ionische
-                  Zee. Meer fan van cultuur? Kies dan voor een fly drive op het vasteland en bezoek onder andere het
-                  Orakel van Dodoni tijdens uw vakantie Griekenland. </p>
-              </div>
+          <div class="boxcenter" onclick="griekenlandOnClick()">
+            <div class="boxInner">
               <img id="imgG" src="assets/griekenland.jpg">
               <p>Griekenland</p>
             </div>
@@ -101,24 +56,72 @@
       </article>
 
       <article class="detail">
-        <div class="boxcenter-griekenland">
+        <div id="bc-spanje" class="boxcenter-spanje">
+          <div class="boxInner">
+            <img class="detailimg" src="assets/spanje.jpg">
+            <p>Spanje</p>
+          </div>
+        </div>
+        <div id="tb-spanje" class="nextToImage">
+          <p class="nextImageText">Een lange kustlijn verdeeld over verschillende Costa's, temperamentvolle steden als
+            Barcelona en Madrid en overheerlijke Spaanse tapas, paella en sangria: als je ergens 'la buena vida' kunt
+            ervaren dan is het wel tijdens een vakantie in Spanje. Dit land in het zuidwesten van Europa is vanwege de
+            ligging aan de Middellandse Zee al jaren dé plek voor een strandvakantie. </p>
+          <a href="bestemming_boek_nu.html" class="ts-link">
+            Boek nu
+          </a>
+        </div>
+        <div id="bc-griekenland" class="boxcenter-griekenland">
           <div class="boxInner">
             <img class="detailimg" src="assets/griekenland.jpg">
             <p>Griekenland</p>
           </div>
-          <div class="nextToImage">
-            <p class="nextImageText">Griekenland is zo divers dat het onmogelijk is om over één land te spreken en
-              daar plukt u de vruchten van. Voor een zonovergoten strandvakantie lenen de talloze eilanden zich
-              goed, zoals het diverse Kreta. Of ontdek meerdere eilanden tijdens het eilandhoppen in de Ionische
-              Zee. Meer fan van cultuur? Kies dan voor een fly drive op het vasteland en bezoek onder andere het
-              Orakel van Dodoni tijdens uw vakantie Griekenland. </p>
-            <a href="aanbiedingen_detail.html" class="ts-link">
-              Boek nu
-            </a>
+        </div>
+        <div id="tb-griekenland" class="nextToImage">
+          <p class="nextImageText">Griekenland is zo divers dat het onmogelijk is om over één land te spreken en
+            daar plukt u de vruchten van. Voor een zonovergoten strandvakantie lenen de talloze eilanden zich
+            goed, zoals het diverse Kreta. Of ontdek meerdere eilanden tijdens het eilandhoppen in de Ionische
+            Zee. Meer fan van cultuur? Kies dan voor een fly drive op het vasteland en bezoek onder andere het
+            Orakel van Dodoni tijdens uw vakantie Griekenland. </p>
+          <a href="bestemming_boek_nu.html" class="ts-link">
+            Boek nu
+          </a>
+        </div>
+        <div id="bc-portugal" class="boxcenter-portugal">
+          <div class="boxInner">
+            <img class="detailimg" src="assets/portugal.jpeg">
+            <p>Portugal</p>
           </div>
         </div>
+        <div id="tb-portugal" class="nextToImage">
+          <p class="nextImageText">De populariteit van Portugal als vakantieland groeit met het jaar. En terecht.
+            In Portugal is genoeg te zien: de sprookjespaleizen in Sintra, de duizelingwekkende ravijnen in de Serra
+            da Estrela, Lissabon met haar romantische wijken en de sneeuwwitte dorpjes in de Alentejo. Je kunt er
+            heerlijk eten en luisteren naar de weemoedige fado-muziek </p>
+          <a href="bestemming_boek_nu.html" class="ts-link">
+            Boek nu
+          </a>
+        </div>
+        <div id="bc-ibiza" class="boxcenter-ibiza">
+          <div class="boxInner">
+            <img class="detailimg" src="assets/ibiza.jpeg">
+            <p>Ibiza</p>
+          </div>
+        </div>
+        <div id="tb-ibiza" class="nextToImage">
+          <p class="nextImageText">Ibiza had het Spaanse woord voor muziek kunnen zijn. Niet voor niets is de
+            muziekstijl 'Ibiza House' naar dit eiland vernoemd. Ook staat Ibiza bekend om het bruisende
+            nachtleven,
+            blauwe baaien en is het de thuishaven van vele hippies. Wissel uw dagen op de witte stranden af met
+            een
+            klim naar de top van de Puig de Missa tijdens een zonvakantie op Ibiza. Op deze manier maakt u kennis
+            met
+            beide gezichten van het Spaanse eiland dat behoort tot de Balearen.</p>
+          <a href="bestemming_boek_nu.html" class="ts-link">
+            Boek nu
+          </a>
+        </div>
       </article>
-
     </div>
   </body>
 </html>

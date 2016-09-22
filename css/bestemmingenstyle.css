@@ -7,11 +7,37 @@
 .detailimg {
     width: 100%;
     height: auto;
+}
+
+img.detailimg {
     opacity: 1;
 }
 
 .boxcenter-griekenland {
-    display: block;
+    display: none;
+    padding: 3%;
+    margin: 1%;
+    width: 50%;
+}
+
+.box {
+    width: inherit;
+}
+.boxcenter-spanje {
+    display: none;
+    padding: 3%;
+    margin: 1%;
+    width: 50%;
+}
+.boxcenter-portugal {
+    display: none;
+    padding: 3%;
+    margin: 1%;
+    width: 50%;
+}
+
+.boxcenter-ibiza {
+    display: none;
     padding: 3%;
     margin: 1%;
     width: 50%;
@@ -24,6 +50,7 @@
     height: 10%;
     right: 40%;
     left: 40%;
+    top: 20%;
     bottom: 10%;
     font-size: 110%;
     font-weight: 700;
@@ -33,4 +60,20 @@
     text-decoration: none;
     border-radius: 9px;
     background-color: #e20086
+}
+
+.nextToImage {
+    float: right;
+    position: relative;
+    width: 44%;
+    height: 100%;
+    bottom: 350px;
+    display: none;
+}
+
+p.nextImageText {
+    margin: 5px;
+    text-align: left;
+    color: #293634;
+    font-size: 110%;
 }
