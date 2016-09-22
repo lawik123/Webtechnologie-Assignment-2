@@ -124,6 +124,10 @@ p {
     overflow: hidden;
     height: inherit;
   }
+
+  article{
+    width: 100%;
+  }
 }
 
 

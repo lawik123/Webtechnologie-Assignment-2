@@ -1,0 +1,228 @@
+.wrap {
+  overflow: hidden;
+  margin: 10px;
+}
+
+.box {
+  float: left;
+  position: relative;
+  width: 100%;
+
+}
+
+.boxInner {
+  position: relative;
+  margin: 10px 10px 10px 10px;
+  overflow: hidden;
+  /*border-radius: 15px;*/
+  /*background: rgba(0,0,0,1.0);*/
+  /*margin: 1%;*/
+
+}
+
+.boxInner img {
+  opacity: 0.7;
+  max-width: 100%;
+  height: auto;
+  border-radius: 18px;
+}
+
+.boxInner img:hover {
+  opacity: 1.0;
+}
+
+.boxInner p {
+  font-family: "Corben", Georgia, Times, serif;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  color: #fff;
+  font-size: 300%;
+  font-weight: bold;
+}
+
+.bestemmingarticle {
+  /*margin: auto;*/
+  width: 30%;
+  /*background: rgba(255,255,255,0.8)*/
+  background-color: #fff;
+  margin-top: 30px;
+  padding-top: 5px;
+
+}
+
+.page {
+  display: none;
+  margin: auto;
+  width: 70%;
+  background: white;
+  position: relative;;
+  overflow: hidden;
+  padding: 5%;
+  padding-bottom: 10%;
+
+
+}
+
+section {
+
+  float: left;
+  display: inline-block;
+  width: 50%;
+  height: auto;
+
+}
+
+aside {
+  display: inline-block;
+  width: 45%;
+  margin: 1%;
+  font-size: 120%;
+
+  /*font-size: 145%;*/
+}
+
+
+#image{
+  border-radius: 15px;
+  opacity: 1;
+}
+
+.ts-link {
+  margin: auto;
+  display: block;
+  position: relative;
+  width: 50%;
+  height: 10%;
+  font-size: 110%;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+  color: whitesmoke;
+  text-decoration: none;
+  border-radius: 9px;
+  background-color: #e20086
+}
+
+@media only screen and (max-width: 480px) {
+  /*images*/
+  .bestemmingarticle {
+    width: 100%;
+  }
+
+  /*detail*/
+  .page {
+    padding: 0;
+    margin: auto;
+    width: 100%;
+    /*border: 1px dotted red;*/
+    background: white;
+    position: relative;
+
+  }
+
+  section {
+    float: none;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+
+    /*border: 1px dashed green;*/
+  }
+
+  aside {
+
+    display: inline-block;
+    height: auto;
+    width: 90%;
+    font-size: 100%;
+
+  }
+
+
+  #image{
+    border-radius: 0;
+  }
+
+  .boxInner{
+    margin:0;
+  }
+}
+
+@media only screen and (max-width: 650px) and (min-width: 480px) {
+  /*images*/
+  .bestemmingarticle {
+    width: 100%;
+  }
+
+  /*detail*/
+  .page {
+    margin: auto;
+    width: 100%;
+    /*border: 1px dotted red;*/
+    background: white;
+    position: relative;
+    padding: 0;
+  }
+
+  section {
+    float: none;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    /*border: 1px dashed green;*/
+  }
+
+  aside {
+    display: inline-block;
+    height: auto;
+    width: 90%;
+    font-size: 100%;
+    text-align: left;
+  }
+
+  #image{
+    border-radius: 0;
+  }
+
+  .boxInner{
+    margin:0;
+  }
+
+
+}
+
+@media only screen and (max-width: 1050px) and (min-width: 650px) {
+  .bestemmingarticle {
+    width: 70%;
+  }
+
+  /*detail*/
+  .page {
+    position: relative;
+    margin: auto;
+    width: 90%;
+    background: white;
+
+  }
+
+  section {
+    float: left;
+    display: inline-block;
+    width: 50%;
+    position: relative;
+  }
+
+
+
+  aside {
+    display: inline-block;
+    height: auto;
+    width: 45%;
+    font-size: 90%;
+  }
+
+
+
+}
