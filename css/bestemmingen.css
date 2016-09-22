@@ -38,7 +38,7 @@
   left: 0;
   padding: 10px;
   color: #fff;
-  font-size: 300%;
+  font-size: 280%;
   font-weight: bold;
 }
 
@@ -190,6 +190,10 @@ aside {
     margin:0;
   }
 
+  #imagetext {
+    font-size: 200%;
+  }
+
 
 }
 
@@ -223,6 +227,26 @@ aside {
     font-size: 90%;
   }
 
+  #imagetext {
+    font-size: 200%;
+  }
+
+  @media only screen and (max-width: 1290px) and (min-width: 1051px) {
+    /* Medium desktop: 4 tiles */
+
+    #imagetext {
+      font-size: 220%;
+    }
+
+  }
+
+  @media only screen and (max-width: 1500px) and (min-width: 1291px) {
+    /* Medium desktop: 4 tiles */
+
+    #imagetext {
+      font-size: 250%;
+    }
+  }
 
 
 }
