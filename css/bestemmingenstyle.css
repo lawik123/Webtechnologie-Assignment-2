@@ -1,6 +1,6 @@
 .detail {
     width: 80%;
-    height: 40%;
+    height: 100%;
     display: block;
 }
 
@@ -20,9 +20,6 @@ img.detailimg {
     width: 50%;
 }
 
-.box {
-    width: inherit;
-}
 .boxcenter-spanje {
     display: none;
     padding: 3%;
@@ -67,7 +64,7 @@ img.detailimg {
     position: relative;
     width: 44%;
     height: 100%;
-    bottom: 350px;
+    bottom: 400px;
     display: none;
 }
 
@@ -75,5 +72,119 @@ p.nextImageText {
     margin: 5px;
     text-align: left;
     color: #293634;
-    font-size: 110%;
+    font-size: 150%;
+}
+
+@media only screen and (max-width: 480px) {
+    /* Smartphone view: 1 tile */
+
+    .nextToImage {
+        width: 100%;
+        bottom: 100px;
+    }
+
+    p.nextImageText {
+        font-size: 70%;
+        top: 80px;
+        float: none;
+    }
+
+    .detailimg {
+        display: none;
+    }
+
+    .detail {
+        width: 100%;
+        max-height: 200%;
+    }
+
+    .ts-link {
+        width: 33%;
+        height: 4%;
+        right: 48%;
+        left: 48%;
+        font-size: 70%;
+        font-weight: 700;
+    }
+
+}
+
+@media only screen and (max-width: 650px) and (min-width: 481px) {
+    /* Tablet view: 2 tiles */
+
+    .nextToImage {
+        width: 100%;
+        bottom: 100px;
+    }
+
+    p.nextImageText {
+        font-size: 70%;
+        top: 80px;
+        float: none;
+    }
+
+    .detailimg {
+        display: none;
+    }
+
+    .detail {
+        width: 100%;
+        max-height: 200%;
+    }
+
+    .ts-link {
+        width: 33%;
+        height: 4%;
+        right: 48%;
+        left: 48%;
+        font-size: 80%;
+        font-weight: 700;
+    }
+
+}
+
+@media only screen and (max-width: 1050px) and (min-width: 651px) {
+    /* Small desktop / ipad view: 3 tiles */
+
+    p.nextImageText {
+        font-size: 80%;
+    }
+
+    .nextToImage {
+        bottom: 230px;
+    }
+
+    .ts-link {
+        width: 33%;
+        height: 4%;
+        right: 48%;
+        left: 48%;
+        font-size: 70%;
+        font-weight: 700;
+    }
+}
+
+@media only screen and (max-width: 1290px) and (min-width: 1051px) {
+    /* Medium desktop: 4 tiles */
+
+    p.nextImageText {
+        font-size: 130%;
+    }
+
+    .nextToImage {
+        bottom: 340px;
+    }
+
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 1291px) {
+    /* Medium desktop: 4 tiles */
+
+    .nextToImage {
+        bottom: 350px;
+    }
+
+    p.nextImageText {
+        font-size: 130%;
+    }
 }

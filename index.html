@@ -9,7 +9,7 @@
     <link href="http://fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="script.js"></script>
   </head>
-  <body>
+  <body onload="init()">
     <div>
       <header>
         <h1>Vakantie Feest</h1>
@@ -38,25 +38,6 @@
             <img class="mySlides" src="assets/spanje.jpg">
             <img class="mySlides" src="assets/sweden.jpg">
           </div>
-          <script>
-            var myIndex = 0;
-            showSlides();
-
-            function showSlides() {
-              var i;
-              var x = document.getElementsByClassName("mySlides");
-              for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
-              }
-              myIndex++;
-              if (myIndex > x.length) {
-                myIndex = 1
-              }
-              x[myIndex - 1].style.display = "block";
-              setTimeout(showSlides, 3000); // Change image every 3 seconds
-            }
-          </script>
-
           <footer>©©©©©©©©©</footer>
         </article>
 
