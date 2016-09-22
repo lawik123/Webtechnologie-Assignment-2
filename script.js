@@ -1,11 +1,15 @@
-
+/**
+ * function called onload which calls the showSlides function
+ */
 function init() {
     showSlides();
-
 }
 
 var myIndex = 0;
 
+/**
+ * method which picks a random image and shows it for 3 seconds
+ */
 function showSlides() {
     var i;
     var x = document.getElementsByClassName("mySlides");
