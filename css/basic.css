@@ -1,5 +1,5 @@
 /*General CSS file for all the pages*/
-
+/*TODO: find new h1 color*/
 
 
 /*html*/
@@ -76,6 +76,24 @@ p {
   text-align: center;
   font-family: Calibri;
   color: #293634;
+}
+
+#ts-link {
+  display: block;
+  /*padding:5%;*/
+  /*margin: auto;*/
+  /*height: 5%;*/
+  font-size: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 2%;
+  /*font-weight: 700;*/
+  line-height: 30px;
+  text-align: center;
+  color: #F8F8FF;
+  text-decoration: none;
+  border-radius: 9px;
+  background-color: #454340
 }
 
 /*media styles*/

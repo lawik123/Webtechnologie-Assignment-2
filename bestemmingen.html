@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+
+    <title>Index</title>
+    <link rel="stylesheet" href="css/basic.css" type="text/css">
+    <link rel="stylesheet" href="css/bestemmingen.css" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="bestemmingen.js"></script>
+  </head>
+  <body onload="scrolltop()">
+    <div>
+      <header>
+        <h1>Vakantie Feest</h1>
+        <nav>
+          <ul class="style">
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="bestemmingen.html">Bestemmingen</a></li>
+            <li><a href="aanbiedingen.html">Aanbiedingen</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <article class="bestemmingarticle">
+          <h2>Welkom bij Vakantie Feest!
+            <br>
+            Vakantie Feest heeft een ruime keuze bestemmingen!</h2>
+          <div class="wrap">
+            <div class="box">
+              <div class="boxInner" onclick="griekenlandOnClick()">
+                <img src="assets/griekenland.jpg" alt="Foto van Griekenland" >
+                <p>Griekenland</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="boxInner" onclick="ibizaOnClick()">
+                <img src="assets/ibiza.jpeg" alt="Foto van Ibiza">
+                <p>Ibiza</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="boxInner" onclick="portugalOnClick()">
+                <img src="assets/portugal.jpeg" alt="Foto van Portugal">
+                <p>Portugal</p>
+              </div>
+
+            </div>
+            <div class="box" onclick="spanjeOnClick()">
+              <div class="boxInner">
+                <img src="assets/spanje.jpg" alt="Foto van Spanje">
+                <p>Spanje</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <div class="page" id="detail">
+          <section>
+            <div class="boxInner">
+              <img id="image" src="assets/griekenland.jpg" alt="Foto van Griekenland">
+              <p id="imagetext">Placeholder</p>
+            </div>
+          </section>
+          <aside>
+            <p id="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu scelerisque lorem.
+              Etiam congue risus quis risus laoreet, eget dictum justo accumsan. Phasellus congue orci viverra semper
+              venenatis. In ullamcorper justo porttitor, rutrum orci vitae, malesuada augue. Vestibulum ullamcorper
+              ligula eget neque efficitur bibendum. Nam sed nunc et dolor vestibulum ornare ut et augue. Pellentesque at
+              condimentum urna. Sed sem velit, ullamcorper in aliquam quis, dapibus et ex. </p>
+            <a href="bestemming_boek_nu.html" class="ts-link">
+              Boek nu
+            </a>
+          </aside>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

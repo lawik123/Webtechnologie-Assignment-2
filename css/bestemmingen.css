@@ -38,7 +38,7 @@
   left: 0;
   padding: 10px;
   color: #fff;
-  font-size: 280%;
+  font-size: 200%;
   font-weight: bold;
 }
 
@@ -148,6 +148,15 @@ aside {
   .boxInner{
     margin:0;
   }
+
+  #imagetext {
+    font-size: 150%;
+  }
+
+  .boxInner p{
+    font-size: 150%;
+  }
+
 }
 
 @media only screen and (max-width: 650px) and (min-width: 480px) {
@@ -190,9 +199,11 @@ aside {
     margin:0;
   }
 
+
   #imagetext {
-    font-size: 200%;
+    font-size: 300%;
   }
+
 
 
 }
@@ -218,8 +229,6 @@ aside {
     position: relative;
   }
 
-
-
   aside {
     display: inline-block;
     height: auto;
@@ -228,15 +237,21 @@ aside {
   }
 
   #imagetext {
-    font-size: 200%;
+    font-size: 150%;
   }
+
+}
+
+
 
   @media only screen and (max-width: 1290px) and (min-width: 1051px) {
     /* Medium desktop: 4 tiles */
 
     #imagetext {
-      font-size: 220%;
+      font-size: 150%;
     }
+
+
 
   }
 
@@ -249,4 +264,3 @@ aside {
   }
 
 
-}

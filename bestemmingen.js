@@ -15,6 +15,7 @@ function scrolltop() {
 function spanjeOnClick () {
     document.getElementById("detail").style.display= "block";
     document.getElementById("image").src="assets/spanje.jpg";
+    document.getElementById("image").alt="Foto van Spanje";
     document.getElementById("imagetext").innerHTML ="Spanje";
     document.getElementById("text").innerHTML= "Een lange kustlijn verdeeld over verschillende Costa's, temperamentvolle steden als"+
             "Barcelona en Madrid en overheerlijke Spaanse tapas, paella en sangria: als je ergens 'la buena vida' kunt"+
@@ -29,6 +30,7 @@ function spanjeOnClick () {
 function portugalOnClick () {
     document.getElementById("detail").style.display= "block";
     document.getElementById("image").src="assets/portugal.jpeg";
+    document.getElementById("image").alt="Foto van Portugal";
     document.getElementById("imagetext").innerHTML ="Portugal";
     document.getElementById("text").innerHTML= "De populariteit van Portugal als vakantieland groeit met het jaar. En terecht."+
         "In Portugal is genoeg te zien: de sprookjespaleizen in Sintra, de duizelingwekkende ravijnen in de Serra" +
@@ -43,6 +45,7 @@ function portugalOnClick () {
 function griekenlandOnClick () {
     document.getElementById("detail").style.display= "block";
     document.getElementById("image").src="assets/griekenland.jpg";
+    document.getElementById("image").alt="Foto van Griekenland";
     document.getElementById("imagetext").innerHTML ="Griekenland";
     document.getElementById("text").innerHTML= "Griekenland is zo divers dat het onmogelijk is om over één land te spreken en" +
     "daar plukt u de vruchten van. Voor een zonovergoten strandvakantie lenen de talloze eilanden zich"+
@@ -58,6 +61,7 @@ function griekenlandOnClick () {
 function ibizaOnClick () {
     document.getElementById("detail").style.display= "block";
     document.getElementById("image").src="assets/ibiza.jpeg";
+    document.getElementById("image").alt="Foto van Ibiza";
     document.getElementById("imagetext").innerHTML ="Ibiza";
     document.getElementById("text").innerHTML= "Ibiza had het Spaanse woord voor muziek kunnen zijn. Niet voor niets is de" +
     "muziekstijl 'Ibiza House' naar dit eiland vernoemd. Ook staat Ibiza bekend om het bruisende" +

@@ -75,11 +75,13 @@
     font-size: 80%;
     text-align: center;
     text-transform: uppercase;
-    color: #ff8300;
+    /*color: #ff8300;*/
+    color: rgba(255,131,0,1.0);
     line-height: 1.4;
-    background-color: #000000;
+    background-color: rgba(255,255,255,0.9);
     -webkit-transform: rotate(21deg);
     transform: rotate(21deg);
+
 }
 
 @media only screen and (max-width: 360px) {
