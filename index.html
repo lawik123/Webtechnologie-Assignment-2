@@ -5,8 +5,9 @@
 
     <title>Index</title>
     <link rel="stylesheet" href="css/basic.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!--<link rel="stylesheet" href="css/style.css" type="text/css">-->
     <link href="http://fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="script.js"></script>
   </head>
   <body>
     <div>
@@ -29,6 +30,33 @@
             <br>
             De website om een leuke vakantie te vinden
           </p>
+
+          <div class="slide">
+            <img class="mySlides" src="assets/griekenland.jpg" >
+            <img class="mySlides" src="assets/ibiza.jpeg">
+            <img class="mySlides" src="assets/portugal.jpeg">
+            <img class="mySlides" src="assets/spanje.jpg">
+            <img class="mySlides" src="assets/sweden.jpg">
+          </div>
+          <script>
+            var myIndex = 0;
+            showSlides();
+
+            function showSlides() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+              }
+              myIndex++;
+              if (myIndex > x.length) {
+                myIndex = 1
+              }
+              x[myIndex - 1].style.display = "block";
+              setTimeout(showSlides, 3000); // Change image every 3 seconds
+            }
+          </script>
+
           <footer>©©©©©©©©©</footer>
         </article>
 

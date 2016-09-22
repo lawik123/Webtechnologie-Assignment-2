@@ -101,3 +101,29 @@ p {
   }
 }
 
+
+/*slide styles*/
+.slide{
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+
+}
+
+.slide img{
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+@media only screen and (max-width: 480px) {
+  /* Smartphone view: 1 tile */
+  .slide{
+    position: relative;
+    overflow: hidden;
+    height: inherit;
+  }
+}
+
+

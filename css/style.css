@@ -372,8 +372,6 @@ p.nextImageText {
 
 @media only screen and (max-width: 1500px) and (min-width: 1291px) {
     /* Medium desktop: 4 tiles */
-   a
-
     .boxInner p {
         font-size: 180%;
     }
