@@ -1,7 +1,6 @@
 /*General CSS file for all the pages*/
 /*TODO: find new h1 color*/
 
-
 /*html*/
 html {
   background: url("../assets/bg.jpg") no-repeat center center fixed;
@@ -32,7 +31,6 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  /*background: rgba(255,255,255,0.8)*/
   background-color: #fff;
 }
 
@@ -65,7 +63,6 @@ a {
 article {
   margin: auto;
   width: 75%;
-  /*background: rgba(255,255,255,0.8)*/
   background-color: #fff;
   margin-top: 30px;
   padding-top: 5px;
@@ -80,14 +77,10 @@ p {
 
 #ts-link {
   display: block;
-  /*padding:5%;*/
-  /*margin: auto;*/
-  /*height: 5%;*/
   font-size: 100%;
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 2%;
-  /*font-weight: 700;*/
   line-height: 30px;
   text-align: center;
   color: #F8F8FF;
@@ -96,9 +89,22 @@ p {
   background-color: #454340
 }
 
+.slide {
+  position: relative;
+  margin: 1%;
+  overflow: hidden;
+
+}
+
+.slide img {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
 /*media styles*/
 @media only screen and (max-width: 480px) {
-  /* Smartphone view: 1 tile */
   h2 {
     font-size: 60%;
   }
@@ -109,7 +115,6 @@ p {
 }
 
 @media only screen and (max-width: 650px) and (min-width: 481px) {
-  /* Tablet view: 2 tiles */
   h2 {
     font-size: 80%;
   }
@@ -119,31 +124,14 @@ p {
   }
 }
 
-
-/*slide styles*/
-.slide{
-  position: relative;
-  margin: 1%;
-  overflow: hidden;
-
-}
-
-.slide img{
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-
-}
-
 @media only screen and (max-width: 480px) {
-  /* Smartphone view: 1 tile */
-  .slide{
+  .slide {
     position: relative;
     overflow: hidden;
     height: inherit;
   }
 
-  article{
+  article {
     width: 100%;
   }
 }

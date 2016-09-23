@@ -8,7 +8,7 @@ function init() {
 var myIndex = 0;
 
 /**
- * method which picks a random image and shows it for 3 seconds
+ * method which loops through all the images
  */
 function showSlides() {
     var i;

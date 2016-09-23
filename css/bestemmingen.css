@@ -14,9 +14,6 @@
   position: relative;
   margin: 10px 10px 10px 10px;
   overflow: hidden;
-  /*border-radius: 15px;*/
-  /*background: rgba(0,0,0,1.0);*/
-  /*margin: 1%;*/
 
 }
 
@@ -43,9 +40,7 @@
 }
 
 .bestemmingarticle {
-  /*margin: auto;*/
   width: 30%;
-  /*background: rgba(255,255,255,0.8)*/
   background-color: #fff;
   margin-top: 30px;
   padding-top: 5px;
@@ -61,7 +56,6 @@
   overflow: hidden;
   padding: 5%;
   padding-bottom: 10%;
-
 
 }
 
@@ -79,12 +73,9 @@ aside {
   width: 45%;
   margin: 1%;
   font-size: 120%;
-
-  /*font-size: 145%;*/
 }
 
-
-#image{
+#image {
   border-radius: 15px;
   opacity: 1;
 }
@@ -106,17 +97,14 @@ aside {
 }
 
 @media only screen and (max-width: 480px) {
-  /*images*/
   .bestemmingarticle {
     width: 100%;
   }
 
-  /*detail*/
   .page {
     padding: 0;
     margin: auto;
     width: 100%;
-    /*border: 1px dotted red;*/
     background: white;
     position: relative;
 
@@ -128,7 +116,6 @@ aside {
     width: 100%;
     height: auto;
 
-    /*border: 1px dashed green;*/
   }
 
   aside {
@@ -140,36 +127,32 @@ aside {
 
   }
 
-
-  #image{
+  #image {
     border-radius: 0;
   }
 
-  .boxInner{
-    margin:0;
+  .boxInner {
+    margin: 0;
   }
 
   #imagetext {
     font-size: 150%;
   }
 
-  .boxInner p{
+  .boxInner p {
     font-size: 150%;
   }
 
 }
 
 @media only screen and (max-width: 650px) and (min-width: 480px) {
-  /*images*/
   .bestemmingarticle {
     width: 100%;
   }
 
-  /*detail*/
   .page {
     margin: auto;
     width: 100%;
-    /*border: 1px dotted red;*/
     background: white;
     position: relative;
     padding: 0;
@@ -180,7 +163,6 @@ aside {
     display: inline-block;
     width: 100%;
     height: auto;
-    /*border: 1px dashed green;*/
   }
 
   aside {
@@ -191,20 +173,17 @@ aside {
     text-align: left;
   }
 
-  #image{
+  #image {
     border-radius: 0;
   }
 
-  .boxInner{
-    margin:0;
+  .boxInner {
+    margin: 0;
   }
-
 
   #imagetext {
     font-size: 300%;
   }
-
-
 
 }
 
@@ -213,7 +192,6 @@ aside {
     width: 70%;
   }
 
-  /*detail*/
   .page {
     position: relative;
     margin: auto;
@@ -242,25 +220,17 @@ aside {
 
 }
 
-
-
-  @media only screen and (max-width: 1290px) and (min-width: 1051px) {
-    /* Medium desktop: 4 tiles */
-
-    #imagetext {
-      font-size: 150%;
-    }
-
-
-
+@media only screen and (max-width: 1290px) and (min-width: 1051px) {
+  #imagetext {
+    font-size: 150%;
   }
 
-  @media only screen and (max-width: 1500px) and (min-width: 1291px) {
-    /* Medium desktop: 4 tiles */
+}
 
-    #imagetext {
-      font-size: 250%;
-    }
+@media only screen and (max-width: 1500px) and (min-width: 1291px) {
+  #imagetext {
+    font-size: 250%;
   }
+}
 
 
